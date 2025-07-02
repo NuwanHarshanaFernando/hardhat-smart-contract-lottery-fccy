@@ -23,3 +23,19 @@ Pick a rondom winner (verifiably random)
 Winner to be selected every X minutes -> completely automated
 
 Chainlink Oracle -> Randomness, Automated Execution (Chainlink Keepers)
+
+///////////////////////////////////////////////////////
+
+Download @chainlink/contracts
+
+```
+yarn add --dev @chainlink/contracts
+```
+
+Add hardhat shorthands
+
+```
+yarn global add hardhat-shorthand
+```
+
+Now 'yarn hardhat compile' == hh compile
