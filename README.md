@@ -68,5 +68,17 @@ Creata a new file called VRFCoordinatorV2Mock.sol inside it.
 
 Create verify.js file inside utils folder for verification.
 
+## Testing
+
+Create a folder called test 
+
+Create a folder called unit for unit testing
+
+Create a file called Raffle.test.js
+
+
+
+
+
 
 

@@ -102,4 +102,4 @@ module.exports = async function({getNamedAccounts, deployments}){
     log("-------------------------------------")
 }
 
-module.exports.taga = ["all", "raffle"]
+module.exports.tags = ["all", "raffle"]
