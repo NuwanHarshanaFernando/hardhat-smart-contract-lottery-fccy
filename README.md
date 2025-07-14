@@ -39,3 +39,34 @@ yarn global add hardhat-shorthand
 ```
 
 Now 'yarn hardhat compile' == hh compile
+
+## Deploy
+
+Create a new folder called 'deploy'
+
+Create 01-deploy-raffle.js file inside deploy folder.
+
+Add namedAccounts in hardhat.config.js
+
+  namedAccounts: {
+    deployer: {
+      default: 0,
+    },
+    player: {
+      default: 1,
+    }
+  }
+
+
+Create helper-hardhat-config.js file
+
+Create a new file called 00-deploy-mocks.js inside deploy folder
+
+Create a new folder called "test" in contracts folder
+
+Creata a new file called VRFCoordinatorV2Mock.sol inside it.
+
+Create verify.js file inside utils folder for verification.
+
+
+
